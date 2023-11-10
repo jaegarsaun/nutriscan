@@ -1,12 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Welcome from './screens/welcome';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>nutri scan test</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Welcome />
   );
 }
 
